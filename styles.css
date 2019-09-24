@@ -1,1 +1,25 @@
-/* CSS code  */
+
+
+
+ul{
+    list-style-type: none;
+    background-color: #10243b;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+li{
+    display: inline;
+    padding: 15px;
+    margin-left: 10px;
+}
+
+li:first-child{
+    padding: 0px;
+    margin-left: 0px;
+
+}
