@@ -40,7 +40,20 @@ li:first-child{
 }
 
 #herotext{
-    margin: 0;
-    padding: 0;
     color: white;
+    vertical-align: center;
+    display: inline;
+}
+
+h1{
+    margin: 0px
+}
+
+#c{
+    display: left;
+}
+
+#nexttoC{
+    display: relative;
+    margin-left: 180px;
 }
