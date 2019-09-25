@@ -20,6 +20,7 @@ ul li{
     padding: 15px;
     margin-left: 10px;
     text-transform: uppercase;
+    vertical-align: middle;
 }
 
 li:first-child{
@@ -33,6 +34,11 @@ li:first-child{
     background-size: cover;
     height: 100vh;
     width: 100vw;
+
+}
+
+li:nth-child(7){
+    padding-right: 90px;
 }
 
 .rightnav{
@@ -42,18 +48,21 @@ li:first-child{
 #herotext{
     color: white;
     vertical-align: center;
-    display: inline;
+    position: relative;
+    top: 150px;
+    left: 100px;
 }
 
-h1{
-    margin: 0px
+#herotext h1{
+    position: relative;
+    left: 180px;
+    bottom: 150px;
+    text-shadow: 2px 2px grey;
 }
 
-#c{
-    display: left;
+
+#backgroundoverlay{
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(255,0,0,1));
 }
 
-#nexttoC{
-    display: relative;
-    margin-left: 180px;
-}
+
