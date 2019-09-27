@@ -1,4 +1,7 @@
-
+*{
+    margin:0;
+    padding: 0px;
+}
 body{
     margin: 0px;
     padding: 0px;
@@ -29,7 +32,7 @@ li:first-child{
 }
 
 #hero{
-    background-image: url(images/fans.jpg);
+    background: linear-gradient(rgba(0,0,0, 0.8), rgba(0,0,0, 0.0), transparent), url(images/fans.jpg) no-repeat center; 
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -60,9 +63,50 @@ li:nth-child(7){
     text-shadow: 2px 2px grey;
 }
 
-
-#backgroundoverlay{
-    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(255,0,0,1));
+#herotext p{
+    position: relative;
+    left: 190px;
+    bottom: 150px
 }
 
+#exploreheader{
+    width: 100vw;
+    height: 81px;
+    background-color: #10243b;
+    text-align: center;
+}
 
+#exploresection{
+    width: 100vw;
+    height: 319px;
+}
+
+.explorebox{
+    height: 315px;
+    width: 25%;
+    float: left;
+}
+
+#hurricane{
+    background-image: url(images/patriots\ plaza.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#guidance{
+    background-image: url(images/college.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#CCNN{
+    background-image: url(images/ccnnlive.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#media{
+    background-image: url(images/ccnn\ live.png);
+    background-position: center;
+    background-size: cover;
+}
