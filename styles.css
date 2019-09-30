@@ -100,7 +100,7 @@ li:nth-child(7){
 }
 
 #CCNN{
-    background-image: url(images/ccnnlive.png);
+    background-image: url(images/ccnn.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -109,4 +109,162 @@ li:nth-child(7){
     background-image: url(images/ccnn\ live.png);
     background-position: center;
     background-size: cover;
+}
+
+
+#CCHSglance{
+    width: 100vw;
+    height: 300px;
+}
+
+#glancehead{
+    width: 100vw;
+    height: 81px;
+    background-color:  white;
+    text-align: center;
+    color: #102438;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin-top: 25px;
+    font-size: 1.3em;
+}
+
+#glanceboxes{
+    width: 100%;
+    height: 269px;
+}
+
+.glancelogo{
+    width: 23%;
+    height: 269px;
+    float: left;
+}
+
+#money{
+    background-image: url(images/carosel\ money.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 2%
+}
+
+
+#gradhat{
+    background-image: url(images/carosel\ graduation.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center; 
+}
+
+#book{
+    background-image: url(images/book.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+#teacher{
+    background-image: url(images/carosel\ teaching.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+#glancetext{
+    width: 100%;
+    height: 250px;
+}
+
+.glance{
+    text-align: center;
+    width: 23%;
+    height: 100px;
+    float: left;
+}
+
+.glance h2{
+    color: red;
+}
+
+.glance p{
+    color: #333;
+}
+
+#moneytext{
+    margin-left: 2%;
+}
+
+#ap{
+    height: 200px;
+    width: 100vw;
+    border-bottom: 0.75px solid goldenrod; 
+}
+
+#aptext{
+    text-align: center;
+    border: 1px solid darkblue;
+    margin: 0px 250px;
+    padding: 50px 35px;
+    background: #102438;
+    color: white;
+    text-align: center;   
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
+#college{
+    height: 275px;
+    width: 100%;
+    margin-top: 50px; 
+}
+
+#collegehead{
+    width: 100vw;
+    height: 50px;
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #00344C;
+}
+
+#collegeboxes{
+    width: 100%;
+    height: 225px;
+}
+
+.collegeimg{
+    height: 145px;
+    background-size: cover;
+    float: left;
+}
+
+#um{
+    background-image: url(images/um.png);
+    background-repeat: none;
+    background-position: center;
+    width: 22%; 
+}
+#yale{
+    background-image: url(images/yale.png);
+    background-repeat: none;
+    background-position: center;
+    width: 20%;
+}
+
+#wakeforest{
+    background-image: url(images/wakeforest.png);
+    background-repeat: none;
+    background-position: center;
+    width: 20%; 
+}
+
+#northcarolina{
+    background-image: url(images/northcarolina.png);
+    background-repeat: none;
+    background-position: center;
+    width: 16%;
+}
+
+#mit{
+    background-image: url(images/mit.png);
+    background-repeat: none;
+    background-position: center;
+    width: 22%;
 }
