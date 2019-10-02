@@ -243,6 +243,7 @@ li:nth-child(7){
     background-repeat: none;
     background-position: center;
     width: 20%;
+    height: 200px;
 }
 
 #wakeforest{
@@ -250,6 +251,7 @@ li:nth-child(7){
     background-repeat: none;
     background-position: center;
     width: 20%; 
+    height: 200px;
 }
 
 #northcarolina{
@@ -266,17 +268,24 @@ li:nth-child(7){
     width: 22%;
 }
 
+#footer{
+    width: 100vw;
+    
+}
 
 #footertext{
     padding: 30px;
     background-color: #333;
-    height: 300px;
+    height: 350px;
     width: 100vw;
     text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 #footerbulk{
+    margin-top: 50px;
     padding: 30px;
+    width: 700px;
 }
 
 .right{
@@ -286,4 +295,12 @@ li:nth-child(7){
 
 #seal{
     float: right;
+    position: relative;
+    bottom: 70px;
+}
+
+#site{
+    position: relative;
+    bottom: 200px;
+    right: 80px;
 }
